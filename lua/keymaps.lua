@@ -22,7 +22,11 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank()
   end,
   group = highlight_group,
-  pattern = '*',
+  pattern = '*'
 })
+
+-- [[ Plugin Keymaps ]]
+
+vim.keymap.set('n', '<leader>f', "<Cmd>Neotree toggle <CR>", { desc = 'Toggle Neotree' })
 
 -- vim: ts=2 sts=2 sw=2 et
