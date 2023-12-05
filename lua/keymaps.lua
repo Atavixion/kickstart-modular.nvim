@@ -26,7 +26,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 -- [[ Plugin Keymaps ]]
-
 vim.keymap.set('n', '<leader>f', "<Cmd>Neotree toggle <CR>", { desc = 'Toggle Neotree' })
+vim.keymap.set('n', '<leader>L', "<Cmd>Lazy <CR>", { desc = 'Open lazy.nvim' })
 
 -- vim: ts=2 sts=2 sw=2 et
