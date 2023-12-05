@@ -29,4 +29,17 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 vim.keymap.set('n', '<leader>f', "<Cmd>Neotree toggle <CR>", { desc = 'Toggle Neotree' })
 vim.keymap.set('n', '<leader>L', "<Cmd>Lazy <CR>", { desc = 'Open lazy.nvim' })
 
+
+-- [[ Commands ]]
+-- git commit
+vim.api.nvim_create_user_command('Gcommit',
+  function(message)
+    vim.cmd(':Git commit -m ' .. message.args .. ' -a %')
+  end,
+  {
+    nargs = 1,
+    complete = "customlist,v:lua.completion_function"
+  }
+)
+
 -- vim: ts=2 sts=2 sw=2 et
