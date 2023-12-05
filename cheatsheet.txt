@@ -1,0 +1,42 @@
+# Cheat Sheet for all of the plugins installed
+
+# Plugins that have cheatsheets already:
+# - regex PCRE
+# - gitsigns
+# - telescope
+
+## user
+Open quick menu | <leader>
+Go to previous diagnostic message | [d
+Go to next diagnostic message | ]d
+Add and commit file | :Gcommit / :Gc
+
+## comment
+# normal mode
+Toggles the current line using linewise comment (NORMAL mode) | gcc
+Toggles the current line using blockwise comment (NORMAL mode) | gbc
+Toggles the number of line given as a prefix-count using linewise (NORMAL mode) | [count]gcc
+Toggles the number of line given as a prefix-count using blockwise (NORMAL mode) | [count]gbc
+(Op-pending) Toggles the region using linewise comment (NORMAL mode) | gc[count]{motion}
+(Op-pending) Toggles the region using blockwise comment (NORMAL mode) | gb[count]{motion}
+
+# visual mode
+Toggles the region using linewise comment (VISUAL mode) | gc
+Toggles the region using blockwise comment (VISUAL mode) | gb
+
+# extra
+Insert comment to the next line and enters INSERT mode (NORMAL mode) | gco
+Insert comment to the previous line and enters INSERT mode (NORMAL mode) | gcO
+Insert comment to end of the current line and enters INSERT mode (NORMAL mode) | gcA
+
+## neotree
+Delete file/folder | d
+Create file/folder | a
+Rename | r
+Copy file/folder | c
+Paste file/folder | v
+Cut file/folder | x
+Open file/folder | <CR>
+Close Neotree | q
+Toggle Neotree | <leader>f
+

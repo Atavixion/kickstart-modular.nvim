@@ -2,7 +2,7 @@
 
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
-vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
+vim.keymap.set({ 'n', 'v' }, '<leader>', '<Nop>', { silent = true })
 
 -- Remap for dealing with word wrap
 vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
@@ -16,7 +16,7 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 
 -- [[ Plugin Keymaps ]]
 vim.keymap.set('n', '<leader>f', "<Cmd>Neotree toggle <CR>", { desc = 'Toggle Neotree' })
-vim.keymap.set('n', '<leader>L', "<Cmd>Lazy <CR>", { desc = 'Open lazy.nvim' })
-vim.keymap.set('n', '<leader>gc', "<Cmd>Gcommit <CR>", { desc = 'Add and commit a file' })
-
+vim.keymap.set('n', '<leader>L', "<Cmd>Lazy <CR>", { desc = 'Open [L]azy.nvim' })
+vim.keymap.set('n', '<leader>gc', "<Cmd>Gcommit <CR>", { desc = 'Add and [c]ommit a file' })
+vim.keymap.set('n', '<leader>?', "<Cmd>Cheatsheet <CR>", { desc = 'Open the cheat sheet' })
 -- vim: ts=2 sts=2 sw=2 et

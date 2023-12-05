@@ -1,6 +1,6 @@
 -- creates a cheatsheet to easily lookup commands
 return {
-  'sudormrfbin/cheatsheet.nvim',
+  'doctorfree/cheatsheet.nvim',
 
   dependencies = {
     'nvim-telescope/telescope.nvim',
