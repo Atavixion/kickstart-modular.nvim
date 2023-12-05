@@ -56,18 +56,12 @@ require 'options'
 -- [[ Basic Keymaps ]]
 require 'keymaps'
 
+-- [[ Basic Commands ]]
+require 'commands'
+
 -- [[ Theme configuration ]]
 vim.cmd.colorscheme('MonokaiPro')
 require 'colorizer'.setup()
-
--- autocd if opening a dir
-local cdpwd = vim.api.nvim_create_augroup('cdpwd', { clear = true })
-
-vim.api.nvim_create_autocmd({ 'VimEnter' }, {
-  group = cdpwd,
-  pattern = '*',
-  command = 'cd ' .. vim.fn.getcwd()
-})
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
