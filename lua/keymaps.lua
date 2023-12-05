@@ -37,9 +37,7 @@ vim.api.nvim_create_user_command('Gcommit',
     vim.cmd(':Gwrite')
     vim.cmd(':Telescope gitmoji')
   end,
-  {
-    complete = "customlist,v:lua.completion_function"
-  }
+  {}
 )
 
 vim.api.nvim_create_user_command('Gc',
@@ -47,8 +45,6 @@ vim.api.nvim_create_user_command('Gc',
     vim.cmd(':Gwrite')
     vim.cmd(':Telescope gitmoji')
   end,
-  {
-    complete = "customlist,v:lua.completion_function"
-  }
+  {}
 )
 -- vim: ts=2 sts=2 sw=2 et
