@@ -48,7 +48,7 @@ vim.g.maplocalleader = ' '
 require 'lazy-bootstrap'
 
 -- [[ Configure plugins ]]
--- Plugins in ./plugins automatically loaded
+-- Plugins in ./lua/plugins automatically loaded
 
 -- [[ Setting options ]]
 require 'options'
