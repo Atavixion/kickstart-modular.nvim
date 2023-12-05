@@ -9,6 +9,7 @@ return {
     'tpope/vim-sleuth',
 
     -- Useful plugin to show you pending keybinds.
+    -- the <space> menu1
     { 'folke/which-key.nvim',  opts = {} },
 
     -- "gc" to comment visual regions/lines
