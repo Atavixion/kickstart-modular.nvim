@@ -34,7 +34,7 @@ vim.keymap.set('n', '<leader>L', "<Cmd>Lazy <CR>", { desc = 'Open lazy.nvim' })
 -- git commit
 vim.api.nvim_create_user_command('Gcommit',
   function(message)
-    vim.cmd(':Git commit -m ' .. message.args .. ' -a %')
+    vim.cmd(':Git commit -m ' .. message.args)
   end,
   {
     nargs = 1,
@@ -42,4 +42,13 @@ vim.api.nvim_create_user_command('Gcommit',
   }
 )
 
+vim.api.nvim_create_user_command('Gc',
+  function(message)
+    vim.cmd(':Git commit -m ' .. message.args)
+  end,
+  {
+    nargs = 1,
+    complete = "customlist,v:lua.completion_function"
+  }
+)
 -- vim: ts=2 sts=2 sw=2 et
