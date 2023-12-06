@@ -17,5 +17,11 @@ return {
       enable = true,
       update_cwd = true,
     },
+    window = {
+      mappings = {
+        ["h"] = "close_node",
+        ["l"] = "open"
+      },
+    },
   }
 }

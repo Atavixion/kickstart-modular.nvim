@@ -36,7 +36,8 @@ Rename | r
 Copy file/folder | c
 Paste file/folder | v
 Cut file/folder | x
-Open file/folder | <CR>
+Open file/folder | <CR> / l
+Close folder | h
 Close Neotree | q
 Toggle Neotree | <leader>f
 
