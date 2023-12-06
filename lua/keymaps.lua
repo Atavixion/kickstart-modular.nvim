@@ -19,4 +19,6 @@ vim.keymap.set('n', '<leader>f', "<Cmd>Neotree toggle <CR>", { desc = 'Toggle Ne
 vim.keymap.set('n', '<leader>L', "<Cmd>Lazy <CR>", { desc = 'Open [L]azy.nvim' })
 vim.keymap.set('n', '<leader>gc', "<Cmd>Gcommit <CR>", { desc = 'Add and [c]ommit a file' })
 vim.keymap.set('n', '<leader>?', "<Cmd>Cheatsheet <CR>", { desc = 'Open the cheat sheet' })
+vim.keymap.set({ 'n', 'v' }, '<F8>', "<Cmd>SymbolsOutline <CR>", { desc = 'Toggle symbols outline' })
+
 -- vim: ts=2 sts=2 sw=2 et

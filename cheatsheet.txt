@@ -40,3 +40,5 @@ Open file/folder | <CR>
 Close Neotree | q
 Toggle Neotree | <leader>f
 
+## symbols-outline
+Toggle symbols outline | <F8>
