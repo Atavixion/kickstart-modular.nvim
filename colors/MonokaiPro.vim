@@ -68,6 +68,12 @@ call s:highlight('NeoTreeSymbolicLinkTarget', '', s:Color1, '')
 call s:highlight('NeoTreeRootName', '', s:Color5, '')
 call s:highlight('NeoTreeFileNameOpened', '', s:Color5, '')
 
+" LSP diagnostic
+call s:highlight('LspReferenceText', '', s:Color4, '')
+call s:highlight('LspReferenceRead', '', s:Color4, '')
+call s:highlight('LspReferenceWrite', '', s:Color4, '')
+call s:highlight('LspInlayHint', '', s:Color2, '')
+
 highlight! link TSTagDelimiter Type
 highlight! link NonText Comment
 highlight! link TSOperator Operator
