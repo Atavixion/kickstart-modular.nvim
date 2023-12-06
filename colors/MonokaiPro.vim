@@ -61,6 +61,13 @@ call s:highlight('GitSignsAdd', '', s:Color2, '')
 call s:highlight('GitSignsChange', '', s:Color5, 'bold')
 call s:highlight('GitSignsDelete', '', s:Color4, 'bold')
 
+" Neo-tree
+call s:highlight('NeoTreeDirectoryIcon', '', s:Color5, '')
+call s:highlight('NeoTreeDirectoryName', '', s:Color5, '')
+call s:highlight('NeoTreeSymbolicLinkTarget', '', s:Color1, '')
+call s:highlight('NeoTreeRootName', '', s:Color5, '')
+call s:highlight('NeoTreeFileNameOpened', '', s:Color5, '')
+
 highlight! link TSTagDelimiter Type
 highlight! link NonText Comment
 highlight! link TSOperator Operator
