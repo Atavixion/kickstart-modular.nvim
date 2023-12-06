@@ -11,6 +11,11 @@ Go to previous diagnostic message | [d
 Go to next diagnostic message | ]d
 Add and commit file | :Gcommit / :Gc
 
+## vim
+Move cursor to the center of screen | zz
+Move cursor to the top of the screen | zt
+Move cursor to the bottom of the screen | zb
+
 ## comment
 # normal mode
 Toggles the current line using linewise comment (NORMAL mode) | gcc
