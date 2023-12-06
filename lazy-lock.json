@@ -4,6 +4,7 @@
   "cheatsheet.nvim": { "branch": "master", "commit": "53325f0c7bef73f875d798f2a951362f4f3f50bc" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "44b16d11215dce86f253ce0c30949813c0a90765" },
   "cmp_luasnip": { "branch": "master", "commit": "05a9ab28b53f71d1aece421ef32fee2cb857a843" },
+  "diagflow.nvim": { "branch": "main", "commit": "880aed23e3d7d4da76b56fdc7633e5069296d6cd" },
   "fidget.nvim": { "branch": "main", "commit": "abf57d539b562cd0f0404c21b60046efa238edfe" },
   "friendly-snippets": { "branch": "main", "commit": "53d3df271d031c405255e99410628c26a8f0d2b0" },
   "gitsigns.nvim": { "branch": "main", "commit": "6ef8c54fb526bf3a0bc4efb0b2fe8e6d9a7daed2" },

@@ -69,10 +69,10 @@ call s:highlight('NeoTreeRootName', '', s:Color5, '')
 call s:highlight('NeoTreeFileNameOpened', '', s:Color5, '')
 
 " LSP diagnostic
-call s:highlight('LspReferenceText', '', s:Color4, '')
-call s:highlight('LspReferenceRead', '', s:Color4, '')
-call s:highlight('LspReferenceWrite', '', s:Color4, '')
-call s:highlight('LspInlayHint', '', s:Color2, '')
+call s:highlight('DiagnosticFloatingError', s:Color4, '', '')
+call s:highlight('DiagnosticFloatingWarn', s:Color5, '', '')
+call s:highlight('DiagnosticFloatingInfo', s:Color13, '', '')
+call s:highlight('DiagnosticFloatingHint', s:Color2, '', '')
 
 highlight! link TSTagDelimiter Type
 highlight! link NonText Comment

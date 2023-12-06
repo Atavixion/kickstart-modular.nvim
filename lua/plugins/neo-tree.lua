@@ -11,13 +11,11 @@ return {
     "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
     "MunifTanjim/nui.nvim",
   },
-  config = function()
-    require('neo-tree').setup {
+  opts = {
+    update_cwd = true,
+    update_focused_file = {
+      enable = true,
       update_cwd = true,
-      update_focused_file = {
-        enable = true,
-        update_cwd = true,
-      },
-    }
-  end
+    },
+  }
 }
