@@ -48,3 +48,7 @@ Toggle Neotree | <leader>f
 
 ## symbols-outline
 Toggle symbols outline | <F8>
+
+## barbar
+Open barbar menu | <A-w>
+Open window menu | <C-w>

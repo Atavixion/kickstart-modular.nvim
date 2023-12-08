@@ -56,6 +56,10 @@ call s:highlight('TabLineSel', s:Color5, s:Color8, '')
 call s:highlight('TabLineFill', s:Color8, s:Color13, '')
 call s:highlight('TSPunctDelimiter', '', s:Color6, '')
 
+" Window split lines
+call s:highlight('VertSplit', '', s:Color0, '')
+call s:highlight('HorizSplit', '', s:Color0, '')
+
 " GitSigns
 call s:highlight('GitSignsAdd', '', s:Color2, '')
 call s:highlight('GitSignsChange', '', s:Color5, 'bold')

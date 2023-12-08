@@ -39,4 +39,12 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
+-- making barbar and window separators allign
+vim.opt.fillchars = {
+  horiz = '▁',
+  vert  = '▎'
+}
+
+vim.api.nvim_set_hl(0, 'WinSeparator', { bold = true })
+
 -- vim: ts=2 sts=2 sw=2 et
